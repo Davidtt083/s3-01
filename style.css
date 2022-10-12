@@ -40,10 +40,11 @@ img{
 }
 
 .pant{
-  margin-top: 11px;
-  margin-left:-41px;
-  width: 600px;
-  height: 400px;
+  margin-top: -22px;
+  margin-left:-117px;
+  width: 138%;
+  height: auto;
+  overflow: hidden; 
   z-index: 9;
 }
 
@@ -107,13 +108,15 @@ img{
 }
 
 .popup {
-  margin: 70px auto;
+
   padding: 20px;
   background: #fff;
   border-radius: 5px;
   width: 100%;
   position: relative;
   transition: all 0.5s ease-in-out;
+  margin-top: -19px;
+  margin-left: -14px;
 }
 
 .popup h2 {
@@ -123,18 +126,20 @@ img{
 }
 .popup .close {
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: 4px;
+  right: -1px;
   transition: all 200ms;
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: rgb(200, 16, 16);
 }
 .popup .close:hover {
   color: #06D85F;
 }
 .popup .content {
+  margin-top: -11px;
+  margin-top: 11px;
   max-height: 30%;
-  overflow: auto;
+  overflow: hidden; 
 }
